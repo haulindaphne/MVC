@@ -1,3 +1,75 @@
-h3 {
-    color:red;
-}
+/*CARD.PHP*/
+.card {
+  background-color: white;
+  height: 300px;
+  width: 450px;
+  border-radius: 10px; }
+  .card .logo {
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 100%; }
+  .card .antik p {
+    text-align: center; }
+  .card .phoneNumber p {
+    text-align: center; }
+  .card .change {
+    display: inline-block;
+    margin-left: 15%; }
+  .card input {
+    background-color: #272727;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 5px;
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    border: 1px solid #272727; }
+    .card input :hover {
+      color: #272727;
+      background-color: white; }
+
+/*HEADER.PHP*/
+.skyline {
+  background-color: #272727;
+  height: 130px;
+  max-height: 100%;
+  max-width: 100%; }
+  .skyline .line {
+    grid-column: 1; }
+    .skyline .line p {
+      font-size: 12px; }
+  .skyline .call {
+    grid-column: 3;
+    transform: translate(200px, 10px); }
+    .skyline .call p {
+      font-size: 12px; }
+  .skyline .eye {
+    float: left;
+    grid-column: 1;
+    transform: translateY(-25px); }
+  .skyline .call, .skyline .line {
+    color: white; }
+  .skyline .change {
+    grid-column: 1; }
+    .skyline .change .click {
+      background-color: red;
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 5px;
+      font-family: Arial;
+      color: #272727;
+      font-size: 12px;
+      padding: 13px 10px 1px 10px;
+      text-decoration: none;
+      border: 1px solid white;
+      margin: auto;
+      transform: translate(150px, -50px); }
+      .skyline .change .click :hover {
+        color: white;
+        background-color: #272727; }
+
+/*# sourceMappingURL=headfoot.css.map */

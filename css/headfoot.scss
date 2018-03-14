@@ -1,0 +1,102 @@
+/*CARD.PHP*/
+$colordark: #272727;
+$b: black;
+$w: white;
+
+.card {
+        background-color: $w;
+        height: 300px;
+        width: 450px;
+        border-radius: 10px; 
+    .logo {
+        float: left;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom:10px;
+        width: 100%;
+           }
+    .antik {
+        p {text-align: center;}
+        }
+    .phoneNumber {
+        p {
+            text-align: center;
+        }
+    }
+    .change {
+        display: inline-block;
+        margin-left: 15%;
+    }
+    input {
+        background-color: $colordark;
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 5px;
+        font-family: Arial;
+        color: $w;
+        font-size: 12px;
+        padding: 13px 10px 13px 10px;
+        text-decoration: none;
+        border: 1px solid $colordark;
+        :hover {
+            color: $colordark;
+            background-color: $w;
+        }
+    }
+}
+/*HEADER.PHP*/
+.skyline {
+    background-color: $colordark;
+    height: 130px;
+    max-height: 100%;
+    max-width: 100%;
+
+    .line{
+        grid-column: 1;
+        p{
+            font-size: 12px;
+        }
+    }
+
+    .call{
+        grid-column: 3;
+        transform: translate(200px, 10px);
+        p{
+            font-size: 12px;
+        }
+    }
+
+    .eye {
+        float: left;
+        grid-column: 1;
+        transform: translateY(-25px);
+        }
+
+    .call, .line {
+        color: $w;
+    }
+
+    .change {
+        grid-column: 1;
+        .click {
+            background-color: red;
+            -webkit-border-radius: 28;
+            -moz-border-radius: 28;
+            border-radius: 5px;
+            font-family: Arial;
+            color: $colordark;
+            font-size: 12px;
+            padding: 13px 10px 1px 10px;
+            text-decoration: none;
+            border: 1px solid $w;
+            margin: auto;
+            transform: translate(150px, -50px);
+            :hover {
+                color: $w;
+                background-color: $colordark;
+            }
+        }
+    }  
+} 
+
+
