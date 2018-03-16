@@ -23,14 +23,15 @@ body {
   font-family: 'Open Sans', sans-serif; }
 
 /*INDEX.PHP*/
-body {
-  background: url(/MVC/views/images/NY_docks_o.jpg) no-repeat center fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
-  display: block;
-  width: 100%;
-  height: 100%; }
+/*body {
+    background: url(/MVC/views/images/NY_docks_o.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
 
+}*/
 /*CARD.PHP*/
 .card {
   background-color: white;
