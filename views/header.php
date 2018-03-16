@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../css/headfoot.css"
+    <link rel="stylesheet" type="text/css" href="css/headfoot.css">
 </head>
 <body>
     <div class="skyline">  
@@ -14,9 +14,10 @@
         </div>
 
         <div class="change">
-            <input class="click" type="button" name"present" value="PRESENTATION">
-            <input class="click" type="button" name"stock" value="LE STOCK">
-            <input class="click" type="button" name"contact" value="CONTACT">
+            <a href="index.php?action=presentation" target="blank" rel="noopener">PRESENTATION</a>
+            <a href="index.php?action=stock" target="blank" rel="noopener">LE STOCK</a>
+            <a href="index.php?action=contact" target="blank" rel="noopener">CONTACT</a>
+
         </div>
 
       

@@ -1,7 +1,7 @@
 <?php
     class headerController {
 
-        public function declare() {
+        function _construct() {
 
             function run() {
 

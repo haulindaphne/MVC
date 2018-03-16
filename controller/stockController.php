@@ -1,7 +1,7 @@
 <?php
     class stockController {
 
-        public function declare() {
+        function _construct() {
 
             function run() {
 

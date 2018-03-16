@@ -17,33 +17,66 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    font-weight: normal;
 }
+$colordark: #272727;
+$b: black;
+$w: white;
 
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
-/*INDEX.PHP*/
-/*body {
+/*HOME.PHP*/
+.home {
     background: url(/MVC/views/images/NY_docks_o.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     background-size: cover;
     display: block;
     width: 100%;
     height: 100%;
+    .blackBand{
+        width: 100%;
+        height: 40px;
+        background-color: $colordark;
+    }
+    header {
+        height: 815px;
+        .homeCard {
+            padding-top: 20%;
+        }
+    }
+    h1 {
+        font-weight: normal;
+        text-align: center;
+    }
+}
+.citation {
+    height: 850px;
+    .textCitation {
+        margin: auto;
+        width: 200px;
+        height: 500px;
+        h1 {
+            color: $w;
+        }
+        p {
+        color: $w;
+        text-align: center;
+        }
+    }
+}
 
-}*/
 /*CARD.PHP*/
-$colordark: #272727;
-$b: black;
-$w: white;
 
 .card {
         background-color: $w;
         height: 300px;
         width: 450px;
         border-radius: 10px; 
+        margin: auto;
+        
     .logo {
         float: left;
         padding-left: 5px;
@@ -85,10 +118,17 @@ $w: white;
 /*FOUILLE.PHP*/
 .stock {
     height: 100px;
-    width: 350px;
+    width: 500px;
     margin: auto;
     h3 {
         text-align: center;
+        font-weight: normal;
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .look {
+        width: 300px;
+        height: 20px;
     }
     .cherche {
         background-color: $colordark;
@@ -112,20 +152,26 @@ $w: white;
 
 /*CATALOGUE.PHP*/
 .containerList{
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 100%;
     overflow: auto;
     
     h3{
         text-align: center;
+        
     }
-    ul {
-        li{
-            line-height: 1.5em;
-            border-bottom: 1px solid #ccc;
-            float: left;
-           // display: inline;
-            width: 23%;
+    .listing {
+        width: 95%;
+        margin: auto;
+        min-width: 250px;
+        ul {
+            li{
+                line-height: 1.5em;
+                border-bottom: 1px solid #ccc;
+                float: left;
+                // display: inline;
+                width: 23%;
+                }
             }
         }
     }
@@ -146,7 +192,7 @@ $w: white;
         font-size: 14px;
         transform: translateY(12px);
         }
-        input {
+        a {
             text-decoration: none;
             color: $w;
             font-size: 14px;
@@ -221,10 +267,51 @@ $w: white;
     }
 }
 
+/*STOCK.PHP*/
+h2 {
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 50px;
+    font-size: 26px;
+    margin-top: 30px;
+
+}
+.listStock {
+    width: 95%;
+    margin: auto;
+    min-width: 250px;;
+    ul {
+        li {
+            display: inline-block;
+            margin: 10px 5px 0 5px;
+            padding: 7px;
+            vertical-align: middle;
+            position: relative;
+            width: 250px;
+            min-height: 270px;
+            height: auto;
+            overflow: hidden;
+            background: #272727;
+            border: 2px solid #272727;
+            color: #F7F7F7;
+            a {
+                text-decoration: none;
+            }
+            h4 {
+            color: $w;
+            text-align: center;
+            font-size: 12px;
+            font-weight: normal;
+            vertical-align: middle;
+            }
+        }
+    }
+}
+
 /*FOOTER.PHP*/
 .foot {
     background-color: $colordark;
-    height: 350px;
+    height: 300px;
     p {
         text-align: center;
         color: $w;

@@ -16,28 +16,52 @@ time, mark, audio, video {
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
-  background: transparent; }
+  background: transparent;
+  font-weight: normal; }
 
 body {
   font-family: 'Lato', sans-serif;
   font-family: 'Open Sans', sans-serif; }
 
-/*INDEX.PHP*/
-/*body {
-    background: url(/MVC/views/images/NY_docks_o.jpg) no-repeat center fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    display: block;
+/*HOME.PHP*/
+.home {
+  background: url(/MVC/views/images/NY_docks_o.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 100%; }
+  .home .blackBand {
     width: 100%;
-    height: 100%;
+    height: 40px;
+    background-color: #272727; }
+  .home header {
+    height: 815px; }
+    .home header .homeCard {
+      padding-top: 20%; }
+  .home h1 {
+    font-weight: normal;
+    text-align: center; }
 
-}*/
+.citation {
+  height: 850px; }
+  .citation .textCitation {
+    margin: auto;
+    width: 200px;
+    height: 500px; }
+    .citation .textCitation h1 {
+      color: white; }
+    .citation .textCitation p {
+      color: white;
+      text-align: center; }
+
 /*CARD.PHP*/
 .card {
   background-color: white;
   height: 300px;
   width: 450px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin: auto; }
   .card .logo {
     float: left;
     padding-left: 5px;
@@ -70,10 +94,16 @@ body {
 /*FOUILLE.PHP*/
 .stock {
   height: 100px;
-  width: 350px;
+  width: 500px;
   margin: auto; }
   .stock h3 {
-    text-align: center; }
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    padding-bottom: 20px; }
+  .stock .look {
+    width: 300px;
+    height: 20px; }
   .stock .cherche {
     background-color: #272727;
     -webkit-border-radius: 28;
@@ -93,16 +123,20 @@ body {
 
 /*CATALOGUE.PHP*/
 .containerList {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
   overflow: auto; }
   .containerList h3 {
     text-align: center; }
-  .containerList ul li {
-    line-height: 1.5em;
-    border-bottom: 1px solid #ccc;
-    float: left;
-    width: 23%; }
+  .containerList .listing {
+    width: 95%;
+    margin: auto;
+    min-width: 250px; }
+    .containerList .listing ul li {
+      line-height: 1.5em;
+      border-bottom: 1px solid #ccc;
+      float: left;
+      width: 23%; }
 
 /*CONTACT.PHP*/
 .ContainerContact {
@@ -115,7 +149,7 @@ body {
   .ContainerContact .motte p {
     font-size: 14px;
     transform: translateY(12px); }
-  .ContainerContact .motte input {
+  .ContainerContact .motte a {
     text-decoration: none;
     color: white;
     font-size: 14px;
@@ -130,7 +164,7 @@ body {
     height: 27px;
     width: 150px;
     transform: translateY(-1px); }
-    .ContainerContact .motte input :hover {
+    .ContainerContact .motte a :hover {
       color: #272727;
       background-color: white; }
   .ContainerContact .phone p {
@@ -174,10 +208,44 @@ body {
     max-width: 100%;
     width: 500px; }
 
+/*STOCK.PHP*/
+h2 {
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 50px;
+  font-size: 26px;
+  margin-top: 30px; }
+
+.listStock {
+  width: 95%;
+  margin: auto;
+  min-width: 250px; }
+  .listStock ul li {
+    display: inline-block;
+    margin: 10px 5px 0 5px;
+    padding: 7px;
+    vertical-align: middle;
+    position: relative;
+    width: 250px;
+    min-height: 270px;
+    height: auto;
+    overflow: hidden;
+    background: #272727;
+    border: 2px solid #272727;
+    color: #F7F7F7; }
+    .listStock ul li a {
+      text-decoration: none; }
+    .listStock ul li h4 {
+      color: white;
+      text-align: center;
+      font-size: 12px;
+      font-weight: normal;
+      vertical-align: middle; }
+
 /*FOOTER.PHP*/
 .foot {
   background-color: #272727;
-  height: 350px; }
+  height: 300px; }
   .foot p {
     text-align: center;
     color: white;

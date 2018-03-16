@@ -1,7 +1,7 @@
 <?php
     class footerController {
 
-        public function declare() {
+        function _construct() {
 
             function run() {
 

@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../css/headfoot.css" />
+    <link rel="stylesheet" type="text/css" href="css/headfoot.css" />
 </head>
 <body>
     <section class="card">
         <div class="logo">
-                <img src="images/logoDidierMotte.png" />
+                <img src="views/images/logoDidierMotte.png" />
         </div>
 
         <div class="antik">
@@ -22,10 +22,11 @@
         </div>
 
             <div class="change">
-                <input type="button" name"present" value="PRESENTATION">
-                <input type="button" name"stock" value="LE STOCK">
-                <input type="button" name"contact" value="CONTACT">
-            </div>
+            <a href="index.php?action=presentation">PRESENTATION</a>
+            <a href="index.php?action=stock">LE STOCK</a>
+            <a href="index.php?action=contact">CONTACT</a>
+
+           </div>
         </div>
     </section>
 

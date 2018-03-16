@@ -1,13 +1,12 @@
 <?php
-    class catalogueController {
+
+    class homeController {
 
         function _construct() {
 
             function run() {
 
-                require views."catalogue.php";
+                require views."home.php";
             }
         }
     }
-
-?>

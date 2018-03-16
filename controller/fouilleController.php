@@ -1,7 +1,7 @@
 <?php
     class fouilleController {
 
-        public function declare() {
+        function _construct() {
 
             function run() {
 

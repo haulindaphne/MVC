@@ -1,9 +1,9 @@
 <?php
 class cardController {
     
-    public function declare() {
+    function _construct() {
 
-        function run() {
+       function run() {
             require views."card.php";
         }
     }

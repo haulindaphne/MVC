@@ -1,7 +1,7 @@
 <?php
     class presentationController {
 
-        public function declare() {
+        function _construct() {
 
             function run() {
 

@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../css/headfoot.css" /> 
-    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/headfoot.css" /> 
 </head>
 <body>
     <section class="ContainerContact">
@@ -18,7 +17,7 @@
         <div class="motte">
             <p>Didier Motte</p>
             <!--<a type="button" href="mailto:dmotte@skynet.be">dmotte@skynet.be</a>-->
-            <input class="click" type="button" name"contact" value="dmotte@skynet.be">
+            <a href="dmotte@skynet.be" target="blank" rel="noopener">dmotte@skynet.be</a>
         </div>
 
         <div class="phone">
