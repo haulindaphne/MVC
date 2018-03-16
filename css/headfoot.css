@@ -1,3 +1,36 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif; }
+
+/*INDEX.PHP*/
+body {
+  background: url(/MVC/views/images/NY_docks_o.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 100%; }
+
 /*CARD.PHP*/
 .card {
   background-color: white;
@@ -33,43 +66,128 @@
       background-color: white; }
 
 /*HEADER.PHP*/
-.skyline {
-  background-color: #272727;
-  height: 130px;
-  max-height: 100%;
-  max-width: 100%; }
-  .skyline .line {
-    grid-column: 1; }
-    .skyline .line p {
-      font-size: 12px; }
-  .skyline .call {
-    grid-column: 3;
-    transform: translate(200px, 10px); }
-    .skyline .call p {
-      font-size: 12px; }
-  .skyline .eye {
-    float: left;
-    grid-column: 1;
-    transform: translateY(-25px); }
-  .skyline .call, .skyline .line {
-    color: white; }
-  .skyline .change {
-    grid-column: 1; }
-    .skyline .change .click {
-      background-color: red;
-      -webkit-border-radius: 28;
-      -moz-border-radius: 28;
-      border-radius: 5px;
-      font-family: Arial;
+/*FOUILLE.PHP*/
+.stock {
+  height: 100px;
+  width: 350px;
+  margin: auto; }
+  .stock h3 {
+    text-align: center; }
+  .stock .cherche {
+    background-color: #272727;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 5px;
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    border: 1px solid #272727;
+    height: 30px;
+    width: 100px;
+    transform: translateY(-1px); }
+    .stock .cherche :hover {
       color: #272727;
-      font-size: 12px;
-      padding: 13px 10px 1px 10px;
+      background-color: white; }
+
+/*CATALOGUE.PHP*/
+.containerList {
+  max-width: 100%;
+  height: auto;
+  overflow: auto; }
+  .containerList h3 {
+    text-align: center; }
+  .containerList ul li {
+    line-height: 1.5em;
+    border-bottom: 1px solid #ccc;
+    float: left;
+    width: 23%; }
+
+/*CONTACT.PHP*/
+.ContainerContact {
+  max-width: 45em;
+  margin: auto; }
+  .ContainerContact h1 {
+    text-align: center; }
+  .ContainerContact p {
+    font-size: 20px; }
+  .ContainerContact .motte p {
+    font-size: 14px;
+    transform: translateY(12px); }
+  .ContainerContact .motte input {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background-color: #272727;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    border: 1px solid #272727;
+    height: 27px;
+    width: 150px;
+    transform: translateY(-1px); }
+    .ContainerContact .motte input :hover {
+      color: #272727;
+      background-color: white; }
+  .ContainerContact .phone p {
+    font-size: 16px; }
+  .ContainerContact .street {
+    width: 180px;
+    height: 60px;
+    padding-bottom: 2px;
+    transform: translateY(-18px); }
+    .ContainerContact .street p {
+      font-size: 16px; }
+  .ContainerContact .net .jour {
+    font-size: 16px; }
+  .ContainerContact .net a {
+    float: right;
+    transform: translate(-160px, -45px);
+    margin-right: 25%;
+    background-color: #272727;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 5px;
+    font-family: Arial;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid #272727;
+    height: 15px;
+    width: 270px;
+    text-align: center;
+    padding: 8px 8px;
+    margin: 2px; }
+    .ContainerContact .net a :hover {
+      color: #272727;
+      background-color: white; }
+  .ContainerContact .map {
+    margin: auto;
+    max-width: 100%;
+    padding-left: 10%; }
+  .ContainerContact .itineris {
+    margin: auto;
+    max-width: 100%;
+    width: 500px; }
+
+/*FOOTER.PHP*/
+.foot {
+  background-color: #272727;
+  height: 350px; }
+  .foot p {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    transform: translateY(180px);
+    padding-top: 2px;
+    padding-bottom: 2px; }
+    .foot p .skynet {
       text-decoration: none;
-      border: 1px solid white;
-      margin: auto;
-      transform: translate(150px, -50px); }
-      .skyline .change .click :hover {
-        color: white;
-        background-color: #272727; }
+      border-bottom: dotted 1px white;
+      color: white;
+      padding-right: 3px; }
 
 /*# sourceMappingURL=headfoot.css.map */

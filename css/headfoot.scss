@@ -1,3 +1,39 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*INDEX.PHP*/
+body {
+    background: url(/MVC/views/images/NY_docks_o.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
 /*CARD.PHP*/
 $colordark: #272727;
 $b: black;
@@ -45,58 +81,163 @@ $w: white;
     }
 }
 /*HEADER.PHP*/
-.skyline {
-    background-color: $colordark;
-    height: 130px;
-    max-height: 100%;
-    max-width: 100%;
 
-    .line{
-        grid-column: 1;
-        p{
-            font-size: 12px;
-        }
+/*FOUILLE.PHP*/
+.stock {
+    height: 100px;
+    width: 350px;
+    margin: auto;
+    h3 {
+        text-align: center;
     }
-
-    .call{
-        grid-column: 3;
-        transform: translate(200px, 10px);
-        p{
-            font-size: 12px;
-        }
-    }
-
-    .eye {
-        float: left;
-        grid-column: 1;
-        transform: translateY(-25px);
-        }
-
-    .call, .line {
+    .cherche {
+        background-color: $colordark;
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 5px;
+        font-family: Arial;
         color: $w;
+        font-size: 12px;
+        text-decoration: none;
+        border: 1px solid $colordark;
+        height: 30px;
+        width: 100px;
+        transform: translateY(-1px);
+        :hover {
+            color: $colordark;
+            background-color: $w;
+        }
+    }
+}
+
+/*CATALOGUE.PHP*/
+.containerList{
+    max-width: 100%;
+    height: auto;
+    overflow: auto;
+    
+    h3{
+        text-align: center;
+    }
+    ul {
+        li{
+            line-height: 1.5em;
+            border-bottom: 1px solid #ccc;
+            float: left;
+           // display: inline;
+            width: 23%;
+            }
+        }
     }
 
-    .change {
-        grid-column: 1;
-        .click {
-            background-color: red;
+
+/*CONTACT.PHP*/
+.ContainerContact {
+    max-width: 45em;
+    margin: auto;
+    h1 {
+        text-align: center;
+    }
+    p {
+        font-size: 20px;
+    }
+    .motte {
+        p{
+        font-size: 14px;
+        transform: translateY(12px);
+        }
+        input {
+            text-decoration: none;
+            color: $w;
+            font-size: 14px;
+            background-color: $colordark;
+            -webkit-border-radius: 28;
+            -moz-border-radius: 28;
+            border-radius: 5px;
+            font-family: 'Lato', sans-serif;
+            font-family: 'Open Sans', sans-serif;;
+            color: $w;
+            border: 1px solid $colordark;
+            height: 27px;
+            width: 150px;
+            transform: translateY(-1px);
+            :hover {
+                color: $colordark;
+                background-color: $w;
+            }
+        }
+    }
+    .phone {
+        p {
+        font-size: 16px;
+        }
+    }
+    .street {
+        width: 180px;
+        height: 60px;
+        padding-bottom: 2px;
+        transform: translateY(-18px);
+        p{
+            font-size: 16px;
+        }
+    }
+    .net {
+        .jour{
+            font-size: 16px;
+        }
+        a {
+            float: right;
+            transform: translate(-160px, -45px);
+            margin-right: 25%;
+            background-color: $colordark;
             -webkit-border-radius: 28;
             -moz-border-radius: 28;
             border-radius: 5px;
             font-family: Arial;
-            color: $colordark;
-            font-size: 12px;
-            padding: 13px 10px 1px 10px;
+            color: $w;
+            font-size: 16px;
             text-decoration: none;
-            border: 1px solid $w;
-            margin: auto;
-            transform: translate(150px, -50px);
+            border: 1px solid $colordark;
+            height: 15px;
+            width: 270px;
+            text-align: center;
+            padding: 8px 8px;
+            margin: 2px;
             :hover {
-                color: $w;
-                background-color: $colordark;
+                color: $colordark;
+                background-color: $w;
             }
         }
-    }  
-} 
+    }
+    .map {
+        margin: auto;
+        max-width: 100%;
+        padding-left: 10%;
+    }
+    .itineris {
+        margin: auto;
+        max-width: 100%;
+        width: 500px;
+    }
+}
 
-
+/*FOOTER.PHP*/
+.foot {
+    background-color: $colordark;
+    height: 350px;
+    p {
+        text-align: center;
+        color: $w;
+        font-size: 14px;
+        transform: translateY(180px);
+        padding-top: 2px;
+        padding-bottom: 2px;
+        .skynet {
+            text-decoration: none;
+            border-bottom: dotted 1px $w;
+            color: $w;
+            padding-right: 3px;
+        }
+    }
+}
+            

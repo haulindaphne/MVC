@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/headfoot.css" /> 
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet"> 
+
 </head>
 <body>
+    <section class="containerList">
+
     <h3>CATALOGUE</h3>
 
-    <div class="containerList">
         <ul>
             <li>acajou (1)</li>
             <li>Agencement de bar (1)</li>
@@ -142,6 +146,6 @@
             <li>Zinc (2)</li>
             
         </ul>
-    </div>
+    </section>
 </body>
 </html>
