@@ -43,17 +43,23 @@ body {
     font-weight: normal;
     text-align: center; }
 
+/*CITATION.PHP*/
 .citation {
-  height: 850px; }
-  .citation .textCitation {
-    margin: auto;
-    width: 200px;
-    height: 500px; }
-    .citation .textCitation h1 {
-      color: white; }
-    .citation .textCitation p {
-      color: white;
-      text-align: center; }
+  height: 300px;
+  width: 450px;
+  margin: auto;
+  display: block; }
+  .citation h1 {
+    color: white;
+    text-align: center;
+    background-color: #565046;
+    margin-top: 20%;
+    padding-top: 50px; }
+  .citation p {
+    color: white;
+    text-align: center;
+    background-color: #272727;
+    clear: both; }
 
 /*CARD.PHP*/
 .card {
@@ -75,7 +81,7 @@ body {
   .card .change {
     display: inline-block;
     margin-left: 15%; }
-  .card input {
+  .card a {
     background-color: #272727;
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
@@ -86,7 +92,7 @@ body {
     padding: 13px 10px 13px 10px;
     text-decoration: none;
     border: 1px solid #272727; }
-    .card input :hover {
+    .card a :hover {
       color: #272727;
       background-color: white; }
 

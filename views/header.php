@@ -14,9 +14,9 @@
         </div>
 
         <div class="change">
-            <a href="index.php?action=presentation" target="blank" rel="noopener">PRESENTATION</a>
-            <a href="index.php?action=stock" target="blank" rel="noopener">LE STOCK</a>
-            <a href="index.php?action=contact" target="blank" rel="noopener">CONTACT</a>
+            <a href="presentation.php?action=presentation">PRESENTATION</a>
+            <a href="stock.php?action=stock">LE STOCK</a>
+            <a href="contact.php?action=contact">CONTACT</a>
 
         </div>
 

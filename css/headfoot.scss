@@ -52,21 +52,28 @@ body {
         text-align: center;
     }
 }
+
+/*CITATION.PHP*/
 .citation {
-    height: 850px;
-    .textCitation {
-        margin: auto;
-        width: 200px;
-        height: 500px;
-        h1 {
-            color: $w;
-        }
-        p {
+    height: 300px;
+    width: 450px;
+    margin: auto;
+    display: block;
+    h1 {
         color: $w;
         text-align: center;
-        }
+        background-color: #565046;
+        margin-top: 20%;
+        padding-top: 50px;
+    }
+    p {
+    color: $w;
+    text-align: center;
+    background-color: $colordark;
+    clear: both;
     }
 }
+
 
 /*CARD.PHP*/
 
@@ -96,7 +103,7 @@ body {
         display: inline-block;
         margin-left: 15%;
     }
-    input {
+    a {
         background-color: $colordark;
         -webkit-border-radius: 28;
         -moz-border-radius: 28;
@@ -114,6 +121,7 @@ body {
     }
 }
 /*HEADER.PHP*/
+
 
 /*FOUILLE.PHP*/
 .stock {

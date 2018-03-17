@@ -8,10 +8,6 @@
     <link rel="stylesheet" type="text/css" href="css/headfoot.css">
 </head>
 <body>
-    <header>
-        <?php require 'header.php'; ?>
-    </header>
-
 
     <h2>LE STOCK</h2>
         <?php
@@ -212,10 +208,6 @@
     -->
         </ul>
     </div>
-
-    <footer>
-    <?php require 'footer.php'; ?>
-    </footer>
 
     
 </body>

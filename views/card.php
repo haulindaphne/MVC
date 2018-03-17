@@ -22,9 +22,9 @@
         </div>
 
             <div class="change">
-            <a href="index.php?action=presentation">PRESENTATION</a>
-            <a href="index.php?action=stock">LE STOCK</a>
-            <a href="index.php?action=contact">CONTACT</a>
+            <a href="views/presentation.php?action=presentation">PRESENTATION</a>
+            <a href="views/stock.php?action=stock">LE STOCK</a>
+            <a href="views/contact.php?action=contact">CONTACT</a>
 
            </div>
         </div>

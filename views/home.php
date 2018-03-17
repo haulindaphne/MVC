@@ -22,7 +22,7 @@
     
 <!-- le stock -->
     <?php
-        require 'stock.php';
+        require 'stockHome.php';
     ?>
         <h2>DERNIERS OBJETS</h2>
 
@@ -34,13 +34,11 @@
     <?php
         require 'catalogue.php';
     ?>
+
+    <?php 
+        require 'citation.php'; 
+    ?>
 <!-- la citation -->
-        <div class="citation">
-            <div class="textCitation">
-                <h1>"L'ennui naquit un jour de l'uniformité"</h1>
-                <p>- Antoine Houdar de la Motte -</p>
-            </div>
-        </div>
      </div>
 
 

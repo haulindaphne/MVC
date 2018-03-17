@@ -1,25 +1,29 @@
 <?php 
-    if($page == 'home') {
-        echo "home";
-        require('views/presentation.php');
-        require('views/stock.php');
-        require('views/contact.php');
+
+    if($page=='home.php') {
+        //echo "home";
+        //require_once('views/presentation.php');
+        //require_once('views/stock.php');
+        //require_once('views/contact.php');
         }
-        elseif ($page == 'contact') {
-            require('views/header.php');
-            require('views/contact.php');
-            require('views/footer.php');
+        elseif ($page=='contact.php') {
+            require_once('views/header.php');
+            require_once('views/contact.php');
+            require_once('views/footer.php');
         }
-        elseif ($page == 'stock') {
-            require('views/header.php');
-            require('views/stock.php');
-            require('views/catalogue.php');
-            require('views/footer.php');
+        elseif ($page=='stock.php') {
+            require_once('views/header.php');
+            require_once('views/stock.php');
+            require_once('views/catalogue.php');
+            require_once('views/footer.php');
         }
-        elseif ($page == 'presentation') {
-            require('views/header.php');
-            require('views/presentation.php');
-            require('views/footer.php');
+        elseif ($page=='views/presentation.php') {
+            require_once('views/header.php');
+            require_once('views/presentation.php');
+            require_once('views/footer.php');
+        }
+        else {
+            require_once('views/home.php');
         }
 
 ?>

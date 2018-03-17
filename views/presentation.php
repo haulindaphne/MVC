@@ -8,9 +8,13 @@
     <link rel="stylesheet" type="text/css" href="css/headfoot.css">
 </head>
 <body>
+    <header>
+        <?php require 'header.php'; ?>
+    </header>
+
     <section>
         <div class="photo">
-        <img src="views/images/didier-grosplan-bw-o.png">
+        <img src="/MVC/views/images/didier-grosplan-bw-o.png">
         </div>
 
         <h2>Les meubles ont une histoire, authentique.</h2>
@@ -75,6 +79,10 @@
 
     </div>
 </section>
+
+<footer>
+    <?php require 'footer.php'; ?>
+</footer>
 
 
 

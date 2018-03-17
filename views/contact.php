@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" href="css/headfoot.css" /> 
 </head>
 <body>
+    <header>
+        <?php require 'header.php'; ?>
+</header>
     <section class="ContainerContact">
         <h1>CONTACT</h1>
 
@@ -48,6 +51,9 @@
             </form>
         </div>
     </section>
+    <footer>
+        <?php require 'footer.php'; ?>
+    </footer>
 
 </body>
 </html>
