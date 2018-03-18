@@ -35,11 +35,13 @@
         require 'catalogue.php';
     ?>
 
+    <div class="home">
     <?php 
         require 'citation.php'; 
     ?>
 <!-- la citation -->
      </div>
+</div>
 
 
     <footer>

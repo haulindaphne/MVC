@@ -10,8 +10,14 @@
 </head>
 <body>
     <section class="citation">
-        <h1>"L'ennui naquit un jour de l'uniformité"</h1>
-        <p>- Antoine Houdar de la Motte -</p>
+        <div class="textCitation">
+            <h1>"L'ennui naquit un jour de l'uniformité"</h1>
+        </div>      
+
+        <div class="author">
+            <p>- Antoine Houdar de la Motte -</p>
+        </div>
+
     </section>
     
 </body>
