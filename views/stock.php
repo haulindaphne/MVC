@@ -213,6 +213,8 @@
         </ul>
     </div>
 
+    <?php require 'catalogue.php'; ?>
+
     <footer>
     <?php require 'footer.php'; ?>
     </footer>

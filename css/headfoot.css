@@ -115,174 +115,192 @@ body {
 
 /*HEADER.PHP*/
 .skyline {
-  background-color: #272727; }
-
-/*FOUILLE.PHP*/
-.stock {
-  height: 100px;
-  width: 500px;
-  margin: auto; }
-  .stock h3 {
+  background-color: #272727;
+  /*FOUILLE.PHP*/
+  /*CATALOGUE.PHP*/
+  /*CONTACT.PHP*/
+  /*STOCK.PHP*/
+  /*FOOTER.PHP*/ }
+  .skyline .eye {
+    margin-right: 35%; }
+  .skyline .line, .skyline .call {
+    color: white; }
+  .skyline .call {
+    transform: translateX(1500px); }
+  .skyline .change {
+    display: inline-block;
+    margin-left: 15%;
+    transform: translate(400px, 50px); }
+    .skyline .change a {
+      background-color: white;
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 5px;
+      font-family: Arial;
+      color: #272727;
+      font-size: 12px;
+      padding: 13px 10px 13px 10px;
+      text-decoration: none;
+      border: 1px solid #272727; }
+      .skyline .change a :hover {
+        color: #272727;
+        background-color: white; }
+  .skyline .stock {
+    height: 100px;
+    width: 500px;
+    margin: auto; }
+    .skyline .stock h3 {
+      text-align: center;
+      font-weight: normal;
+      font-size: 12px;
+      padding-bottom: 20px; }
+    .skyline .stock .look {
+      width: 300px;
+      height: 20px; }
+    .skyline .stock .cherche {
+      background-color: #272727;
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 5px;
+      font-family: Arial;
+      color: white;
+      font-size: 12px;
+      text-decoration: none;
+      border: 1px solid #272727;
+      height: 30px;
+      width: 100px;
+      transform: translateY(-1px); }
+      .skyline .stock .cherche :hover {
+        color: #272727;
+        background-color: white; }
+  .skyline .containerList {
+    width: 100%;
+    height: 100%;
+    overflow: auto; }
+    .skyline .containerList h3 {
+      text-align: center; }
+    .skyline .containerList .listing {
+      width: 95%;
+      margin: auto;
+      min-width: 250px; }
+      .skyline .containerList .listing ul li {
+        line-height: 1.5em;
+        border-bottom: 1px solid #ccc;
+        float: left;
+        width: 23%; }
+  .skyline .ContainerContact {
+    max-width: 45em;
+    margin: auto; }
+    .skyline .ContainerContact h1 {
+      text-align: center; }
+    .skyline .ContainerContact p {
+      font-size: 20px; }
+    .skyline .ContainerContact .motte p {
+      font-size: 14px;
+      transform: translateY(12px); }
+    .skyline .ContainerContact .motte a {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      background-color: #272727;
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 5px;
+      font-family: 'Lato', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+      border: 1px solid #272727;
+      height: 27px;
+      width: 150px;
+      transform: translateY(-1px); }
+      .skyline .ContainerContact .motte a :hover {
+        color: #272727;
+        background-color: white; }
+    .skyline .ContainerContact .phone p {
+      font-size: 16px; }
+    .skyline .ContainerContact .street {
+      width: 180px;
+      height: 60px;
+      padding-bottom: 2px;
+      transform: translateY(-18px); }
+      .skyline .ContainerContact .street p {
+        font-size: 16px; }
+    .skyline .ContainerContact .net .jour {
+      font-size: 16px; }
+    .skyline .ContainerContact .net a {
+      float: right;
+      transform: translate(-160px, -45px);
+      margin-right: 25%;
+      background-color: #272727;
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 5px;
+      font-family: Arial;
+      color: white;
+      font-size: 16px;
+      text-decoration: none;
+      border: 1px solid #272727;
+      height: 15px;
+      width: 270px;
+      text-align: center;
+      padding: 8px 8px;
+      margin: 2px; }
+      .skyline .ContainerContact .net a :hover {
+        color: #272727;
+        background-color: white; }
+    .skyline .ContainerContact .map {
+      margin: auto;
+      max-width: 100%;
+      padding-left: 10%; }
+    .skyline .ContainerContact .itineris {
+      margin: auto;
+      max-width: 100%;
+      width: 500px; }
+  .skyline h2 {
     text-align: center;
     font-weight: normal;
-    font-size: 12px;
-    padding-bottom: 20px; }
-  .stock .look {
-    width: 300px;
-    height: 20px; }
-  .stock .cherche {
-    background-color: #272727;
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 5px;
-    font-family: Arial;
-    color: white;
-    font-size: 12px;
-    text-decoration: none;
-    border: 1px solid #272727;
-    height: 30px;
-    width: 100px;
-    transform: translateY(-1px); }
-    .stock .cherche :hover {
-      color: #272727;
-      background-color: white; }
-
-/*CATALOGUE.PHP*/
-.containerList {
-  width: 100%;
-  height: 100%;
-  overflow: auto; }
-  .containerList h3 {
-    text-align: center; }
-  .containerList .listing {
+    padding-bottom: 50px;
+    font-size: 26px;
+    margin-top: 30px; }
+  .skyline .listStock {
     width: 95%;
     margin: auto;
     min-width: 250px; }
-    .containerList .listing ul li {
-      line-height: 1.5em;
-      border-bottom: 1px solid #ccc;
-      float: left;
-      width: 23%; }
-
-/*CONTACT.PHP*/
-.ContainerContact {
-  max-width: 45em;
-  margin: auto; }
-  .ContainerContact h1 {
-    text-align: center; }
-  .ContainerContact p {
-    font-size: 20px; }
-  .ContainerContact .motte p {
-    font-size: 14px;
-    transform: translateY(12px); }
-  .ContainerContact .motte a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
+    .skyline .listStock ul li {
+      display: inline-block;
+      margin: 10px 5px 0 5px;
+      padding: 7px;
+      vertical-align: middle;
+      position: relative;
+      width: 250px;
+      min-height: 270px;
+      height: auto;
+      overflow: hidden;
+      background: #272727;
+      border: 2px solid #272727;
+      color: #F7F7F7; }
+      .skyline .listStock ul li a {
+        text-decoration: none; }
+      .skyline .listStock ul li h4 {
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        font-weight: normal;
+        vertical-align: middle; }
+  .skyline .foot {
     background-color: #272727;
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 5px;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    border: 1px solid #272727;
-    height: 27px;
-    width: 150px;
-    transform: translateY(-1px); }
-    .ContainerContact .motte a :hover {
-      color: #272727;
-      background-color: white; }
-  .ContainerContact .phone p {
-    font-size: 16px; }
-  .ContainerContact .street {
-    width: 180px;
-    height: 60px;
-    padding-bottom: 2px;
-    transform: translateY(-18px); }
-    .ContainerContact .street p {
-      font-size: 16px; }
-  .ContainerContact .net .jour {
-    font-size: 16px; }
-  .ContainerContact .net a {
-    float: right;
-    transform: translate(-160px, -45px);
-    margin-right: 25%;
-    background-color: #272727;
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 5px;
-    font-family: Arial;
-    color: white;
-    font-size: 16px;
-    text-decoration: none;
-    border: 1px solid #272727;
-    height: 15px;
-    width: 270px;
-    text-align: center;
-    padding: 8px 8px;
-    margin: 2px; }
-    .ContainerContact .net a :hover {
-      color: #272727;
-      background-color: white; }
-  .ContainerContact .map {
-    margin: auto;
-    max-width: 100%;
-    padding-left: 10%; }
-  .ContainerContact .itineris {
-    margin: auto;
-    max-width: 100%;
-    width: 500px; }
-
-/*STOCK.PHP*/
-h2 {
-  text-align: center;
-  font-weight: normal;
-  padding-bottom: 50px;
-  font-size: 26px;
-  margin-top: 30px; }
-
-.listStock {
-  width: 95%;
-  margin: auto;
-  min-width: 250px; }
-  .listStock ul li {
-    display: inline-block;
-    margin: 10px 5px 0 5px;
-    padding: 7px;
-    vertical-align: middle;
-    position: relative;
-    width: 250px;
-    min-height: 270px;
-    height: auto;
-    overflow: hidden;
-    background: #272727;
-    border: 2px solid #272727;
-    color: #F7F7F7; }
-    .listStock ul li a {
-      text-decoration: none; }
-    .listStock ul li h4 {
-      color: white;
+    height: 300px; }
+    .skyline .foot p {
       text-align: center;
-      font-size: 12px;
-      font-weight: normal;
-      vertical-align: middle; }
-
-/*FOOTER.PHP*/
-.foot {
-  background-color: #272727;
-  height: 300px; }
-  .foot p {
-    text-align: center;
-    color: white;
-    font-size: 14px;
-    transform: translateY(180px);
-    padding-top: 2px;
-    padding-bottom: 2px; }
-    .foot p .skynet {
-      text-decoration: none;
-      border-bottom: dotted 1px white;
       color: white;
-      padding-right: 3px; }
+      font-size: 14px;
+      transform: translateY(180px);
+      padding-top: 2px;
+      padding-bottom: 2px; }
+      .skyline .foot p .skynet {
+        text-decoration: none;
+        border-bottom: dotted 1px white;
+        color: white;
+        padding-right: 3px; }
 
 /*# sourceMappingURL=headfoot.css.map */

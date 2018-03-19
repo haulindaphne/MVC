@@ -143,6 +143,35 @@ body {
 /*HEADER.PHP*/
 .skyline {
     background-color: $colordark;
+    .eye {
+        margin-right: 35%;
+    }
+    .line, .call {
+        color: $w;
+    }
+    .call {
+        transform: translateX(1500px);
+    }
+    .change {
+        display: inline-block;
+        margin-left: 15%;
+        transform: translate(400px, 50px);
+       a {
+        background-color: $w;
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 5px;
+        font-family: Arial;
+        color: $colordark;
+        font-size: 12px;
+        padding: 13px 10px 13px 10px;
+        text-decoration: none;
+        border: 1px solid $colordark;
+        :hover {
+            color: $colordark;
+            background-color: $w;
+        }
+    }
 }
 
 
@@ -357,5 +386,6 @@ h2 {
             padding-right: 3px;
         }
     }
+}
 }
             
